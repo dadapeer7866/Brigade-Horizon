@@ -92,30 +92,6 @@
   }
  
 
-  /* Common Logo Style */
-.logo {
-    max-width: 100%;
-    height: auto;
-  }
-  
-  /* Responsive Form Styles */
-  @media (min-width: 576px) {
-    .form-container {
-      /* Style adjustments for small devices and larger */
-    }
-  }
-  
-  @media (min-width: 768px) {
-    .form-container {
-      /* Style adjustments for medium devices and larger */
-    }
-  }
-  
-  @media (min-width: 992px) {
-    .form-container {
-      /* Style adjustments for large devices and larger */
-    }
-  }
   
   
   
