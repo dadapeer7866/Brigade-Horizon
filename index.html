@@ -116,82 +116,84 @@
              <br>
               <!--<span class="pro-rera"><span class="heading">Rera</span> : PRM/KA/RERA/</span>-->
           </div>
-          <div class="mob-form d-sm-block d-md-none d-lg-none">
-            <span class="d-block form-heading font-weight-bold pricepopupTit">Pre-Register here for Best Offers</span> 
-          
-            <!-- Logo -->
-            <div style="text-align:center;">
-              <img src="assets/img/comman/logo.png" alt="Your Logo" style="margin-bottom:20px; max-width: 100%; height: auto;">
-            </div>
-          </div>
-          
-          
-          
-            <div id="divId5"> 
-              <div class="ajaxanswer5"></div>
-              <div id="contact_body5">
-                <div id="npbdy">
-                  <form name="feedbackform" method="post" action="https://formspree.io/f/mayrpbze" class="contact2-form validate-form" id="contact_form5">
-                    <table class="tblstrt" style="border-collapse: separate; border-spacing: 5px 5px; width:100%; padding:3px;">
-                      <tbody>
-                        <tr>
-                          <td style="text-align:center;">
-                            <input type="hidden" name="enqproject" value="Mobile enquiry">
-                          </td>
-                        </tr>
-                        <!-- Name Input -->
-                        <tr>
-                          <td style="text-align:center;">
-                            <input type="text" class="form-control au-input" name="nameb5" id="nameb5" placeholder="Name*" pattern="[a-zA-Z\s]{2,}" required>
-                          </td>
-                        </tr>
-                        <!-- Phone Number with International Code Input -->
-                        <tr>
-                          <td style="text-align:center;">
-                           <input type="tel" id="phoneb5" class="form-control au-input" name="phoneb5" placeholder="Mobile No*" pattern="[0-9]{10}" required="required" autocomplete="off" data-intl-tel-input-id="0" style="padding-left: 100px;">
-                        </td>
-                        </tr>
-                        <!-- Email Input -->
-                        <tr>
-                          <td style="text-align:center;">
-                            <input type="email" class="form-control au-input" name="commentb5" id="commentb5"placeholder="E-Mail Address*" required>
-                          </td>
-                        </tr>
-                        <!-- Message Textarea -->
-                        <tr>
-                          <td style="text-align:center;">
-                            <textarea class="form-control au-input" name="message" placeholder="Comment" required></textarea>
-                          </td>
-                        </tr>
-                        <!-- Consent Checkbox -->
-                       <tr>
-                        <td>
-                         <div class="custom-control custom-checkbox custom-checkbox-green text-left" style="font-size: 9px; color: #bfbfbf">
-                            <input type="checkbox" checked required class="custom-control-input custom-control-input-green" id="customCheck2">
-                            <label class="custom-control-label" for="customCheck2">I give my consent for the <a href="privacy-policy.html" target="_blank" style="color: #bfbfbf; text-decoration: underline;">privacy policy</a> to apply to the processing of the provided data. I give the RERA Agent and its representatives permission to contact me via phone, text, email, or WhatsApp with its offers and products. This agreement takes precedence over any DNC/NDNC registration.</label>
-                        </div>                     
-                        </td>
-                    </tr> 
-                        <!-- Submit Button -->
-                        <tr>
-                          <td style="text-align:center;">
-                            <input type="submit" class="btn btn-info micro-form-btn effetGradient effectScale" name="submit_btn5" id="submit_btn5" value="Submit" onClick="mobviewform()">
-                        </td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </form>
-                </div>
-              </div>
-            </div>
-            
-            <!-- Call Button -->
-            <div style="text-align:center;">
-              <a href="tel:+919663098906" class="btn btn-info micro-form-btn effetGradient effectScale">
-                <i class="fas fa-phone"></i> Call Us Now
-              </a>
-            </div>
-          </div>
+          <!-- Mobile Only Form -->
+<div class="mob-form d-sm-block d-md-none d-lg-none">
+   <span class="d-block form-heading font-weight-bold pricepopupTit">Pre-Register here for Best Offers</span> 
+ 
+   <!-- Logo -->
+   <div style="text-align:center;">
+     <img src="assets/img/comman/logo.png" alt="Your Logo" style="margin-bottom:20px; max-width: 100%; height: auto;">
+   </div>
+ 
+   <!-- Form Fields -->
+   <form name="feedbackform" method="post" action="https://formspree.io/f/mayrpbze" class="contact2-form validate-form" id="contact_form5">
+     <div class="form-group">
+       <input type="hidden" name="enqproject" value="Mobile enquiry">
+     </div>
+     <div class="form-group">
+       <input type="text" class="form-control au-input" name="nameb5" id="nameb5" placeholder="Name*" pattern="[a-zA-Z\s]{2,}" required>
+     </div>
+     <div class="form-group">
+       <input type="tel" id="phoneb5" class="form-control au-input" name="phoneb5" placeholder="Mobile No*" pattern="[0-9]{10}" required="required" autocomplete="off" data-intl-tel-input-id="0">
+     </div>
+     <div class="form-group">
+       <input type="email" class="form-control au-input" name="commentb5" id="commentb5" placeholder="E-Mail Address*" required>
+     </div>
+     <div class="form-group">
+       <textarea class="form-control au-input" name="message" placeholder="Comment" required></textarea>
+     </div>
+     <div class="form-group form-check">
+       <input type="checkbox" checked required class="form-check-input" id="customCheck2">
+       <label class="form-check-label" for="customCheck2" style="font-size: 9px; color: #bfbfbf">
+         I give my consent for the <a href="privacy-policy.html" target="_blank" style="color: #bfbfbf; text-decoration: underline;">privacy policy</a> to apply to the processing of the provided data. I give the RERA Agent and its representatives permission to contact me via phone, text, email, or WhatsApp with its offers and products. This agreement takes precedence over any DNC/NDNC registration.
+       </label>
+     </div>
+     <div class="form-group">
+       <input type="submit" class="btn btn-info micro-form-btn effetGradient effectScale" name="submit_btn5" id="submit_btn5" value="Submit" onClick="mobviewform()">
+     </div>
+   </form>
+ </div>
+ 
+ <!-- Call Button -->
+ <div style="text-align:center;">
+   <a href="tel:+919663098906" class="btn btn-info micro-form-btn effetGradient effectScale">
+     <i class="fas fa-phone"></i> Call Us Now
+   </a>
+ </div>
+ 
+ <!-- Desktop/Laptop Only Form -->
+ <div class="desktop-form d-none d-md-block">
+   <span class="d-block form-heading font-weight-bold pricepopupTit">Pre-Register here for Best Offers</span> 
+ 
+   <!-- Form Fields -->
+   <form name="feedbackform" method="post" action="https://formspree.io/f/mayrpbze" class="contact2-form validate-form" id="contact_form5">
+     <div class="form-group">
+       <input type="hidden" name="enqproject" value="Desktop enquiry">
+     </div>
+     <div class="form-group">
+       <input type="text" class="form-control au-input" name="nameb5" id="nameb5" placeholder="Name*" pattern="[a-zA-Z\s]{2,}" required>
+     </div>
+     <div class="form-group">
+       <input type="tel" id="phoneb5" class="form-control au-input" name="phoneb5" placeholder="Mobile No*" pattern="[0-9]{10}" required="required" autocomplete="off" data-intl-tel-input-id="0">
+     </div>
+     <div class="form-group">
+       <input type="email" class="form-control au-input" name="commentb5" id="commentb5" placeholder="E-Mail Address*" required>
+     </div>
+     <div class="form-group">
+       <textarea class="form-control au-input" name="message" placeholder="Comment" required></textarea>
+     </div>
+     <div class="form-group form-check">
+       <input type="checkbox" checked required class="form-check-input" id="customCheck2">
+       <label class="form-check-label" for="customCheck2" style="font-size: 9px; color: #bfbfbf">
+         I give my consent for the <a href="privacy-policy.html" target="_blank" style="color: #bfbfbf; text-decoration: underline;">privacy policy</a> to apply to the processing of the provided data. I give the RERA Agent and its representatives permission to contact me via phone, text, email, or WhatsApp with its offers and products. This agreement takes precedence over any DNC/NDNC registration.
+       </label>
+     </div>
+     <div class="form-group">
+       <input type="submit" class="btn btn-info micro-form-btn effetGradient effectScale" name="submit_btn5" id="submit_btn5" value="Submit">
+     </div>
+   </form>
+ </div>
+ 
           
           
           
